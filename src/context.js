@@ -67,7 +67,7 @@ class RoomProvider extends Component {
         value={{
           ...this.state,
           getRoom: this.getRoom,
-          handleChnage: this.handleChnage
+          handleChange: this.handleChange
         }}
       >
         {this.props.children}
